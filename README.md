@@ -20,4 +20,4 @@
 
 -Относительные величины
 
-Ссылка на проект: 
+Ссылка на проект: https://romanmusin.github.io/russian-travel/
