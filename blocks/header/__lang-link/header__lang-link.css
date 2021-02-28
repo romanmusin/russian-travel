@@ -1,0 +1,18 @@
+.header__lang-link {
+    color: #ffffff;
+    margin: 18px 0 6px;
+    min-width: 30px;
+    min-height: 28px;
+}
+
+.header__lang-link:nth-of-type(2n) {
+    margin-left: 8px;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 767px) {
+    .header__logo {
+        width: 22px;
+        height: 20px;
+    }
+}
