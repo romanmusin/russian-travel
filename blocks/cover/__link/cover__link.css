@@ -4,29 +4,30 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 100%;
     min-height: 740px;
     margin: 0;
     padding: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
 }
 
 @media screen and (max-width: 1279px) {
     .cover__link {
         min-height: 640px;
-        padding: 0 232px;
     }
 }
 
 @media screen and (max-width: 1023px) {
     .cover__link {
         min-height: 480px;
-        padding: 0 104px;
     }
 }
 
 @media screen and (max-width: 767px) {
     .cover__link {
         min-height: 240px;
-        padding: 0 16px;
     }
 }
