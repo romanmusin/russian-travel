@@ -1,4 +1,6 @@
 .header__links {
+    display: flex;
+    flex-direction: row;
     list-style-type: none;
     margin: 0;
     align-self: flex-end;
