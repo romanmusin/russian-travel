@@ -1,5 +1,6 @@
 .cover {
     background-image: url('../../images/cover-trains.jpg');
+    background-position: center;
     width: calc(100% - 48px*2);
     min-height: 740px;
     display: flex;
@@ -16,8 +17,8 @@
 
 .cover:before {
     content: '';
-    background: black;
-    opacity: 0.2;
+    background: #2A2C2F;
+    opacity: 0.3;
     position: absolute;
     top: 0;
     right: 0;
@@ -42,7 +43,6 @@
 
 @media screen and (max-width: 1023px) {
     .cover {
-        width: 100%;
         min-height: 480px;
         padding: 0 104px;
         margin: 0 0 88px;
@@ -51,7 +51,6 @@
 
 @media screen and (max-width: 767px) {
     .cover {
-        width: 100%;
         min-height: 240px;
         padding: 0 16px;
         margin: 0 0 64px;
