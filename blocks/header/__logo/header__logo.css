@@ -9,6 +9,7 @@
 
 @media screen and (max-width: 767px) {
     .header__logo {
+        background-size: contain;
         min-width: 142px;
         min-height: 42px;
     }
